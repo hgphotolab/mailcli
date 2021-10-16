@@ -21,7 +21,7 @@ print(day)
 print("\n")
 
 url = "http://www.google.com"
-timeout = 5
+#timeout = 5
 try:
     request = requests.get(url, timeout=timeout)
     print("You're Connected to the Internet\n")
