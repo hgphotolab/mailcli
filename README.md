@@ -1,0 +1,2 @@
+# mailcli
+automate emails
