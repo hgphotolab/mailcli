@@ -11,7 +11,7 @@ days = {
     "0": "Monday",
     "1": "Tuesday",
     "2": "Wednesday",
-    "4": "Thursday",
+    "3": "Thursday",
     "4": "Friday",
     "5": "Saturday",
     "6": "Sunday",
@@ -21,7 +21,7 @@ print(day)
 print("\n")
 
 url = "http://www.google.com"
-#timeout = 5
+timeout = 5
 try:
     request = requests.get(url, timeout=timeout)
     print("You're Connected to the Internet\n")
